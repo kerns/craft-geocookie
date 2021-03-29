@@ -11,8 +11,8 @@
         "geo cookie"
     ],
     "support": {
-        "docs": "https://github.com/lukeyouell/craft-geocookie/blob/v1/README.md",
-        "issues": "https://github.com/lukeyouell/craft-geocookie/issues"
+        "docs": "https://github.com/kerns/geocookie/blob/v1/README.md",
+        "issues": "https://github.com/kerns/geocookie/issues"
     },
     "license": "MIT",
     "authors": [
@@ -32,7 +32,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "lukeyouell\\geocookie\\": "src/"
+          "kerns\\geocookie\\": "src/"
         }
     },
     "extra": {
@@ -41,11 +41,11 @@
         "schemaVersion": "1.1.1",
         "hasCpSettings": true,
         "hasCpSection": false,
-        "documentationUrl": "https://github.com/lukeyouell/craft-geocookie/blob/v1/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/lukeyouell/craft-geocookie/v1/CHANGELOG.md",
+        "documentationUrl": "https://github.com/kerns/geocookie/blob/v1/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/kerns/geocookie/v1/CHANGELOG.md",
         "components": {
-            "geoCookieService": "lukeyouell\\geocookie\\services\\GeoCookieService"
+            "geoCookieService": "kerns\\geocookie\\services\\GeoCookieService"
         },
-        "class": "lukeyouell\\geocookie\\GeoCookie"
+        "class": "kerns\\geocookie\\GeoCookie"
     }
 }
